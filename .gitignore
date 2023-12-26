@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Testing output
+coverage/
+
+# Temporary files
+*~
+.tmp
+
+# Editor directories and files
+.idea
+.vscode
+
+# Operating system-specific files
+Thumbs.db
+.DS_Store
+
+# Optional: lock files
+package-lock.json
+yarn.lock
+
+# Optional: IDE settings
+.idea
+.vscode
+
+# Optional: Sensitive files
+.env
