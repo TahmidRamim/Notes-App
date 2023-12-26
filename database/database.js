@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 
 export const connectDB = async () => {
-  await mongoose.connect(process.env.MONGO_URL);
+  await mongoose.connect(process.env.MONGO_URL, {
+    dbName: "full-backend",
+  });
   console.log("MongoDB connected");
 };
